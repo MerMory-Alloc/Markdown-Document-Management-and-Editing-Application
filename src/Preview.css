@@ -1,0 +1,47 @@
+h1,h2,h3,h4,h5,a {
+    color :var(--white)
+}
+
+h2 {
+  font-weight: 300;
+}
+
+h6 {
+  color: var(--btn);
+}
+
+.preview_text > ul {
+    list-style: none;
+  }
+  
+  .preview_text > ul > li::marker {
+    content: " •   ";
+    color: var(--btn);
+  }
+
+  blockquote{
+    border-left: 5px solid var(--btn);
+    font-weight: 500;
+  }
+
+  blockquote, pre  {
+    display: block;
+    background-color: var(--nav_greyer_dark);
+    padding: 1.5rem;
+    color: var(--white);
+    border-radius: 5px;
+    margin: 1rem 0;
+  }
+
+
+  code {
+    color: var(--white);
+  }
+
+  img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+  }
+
+  

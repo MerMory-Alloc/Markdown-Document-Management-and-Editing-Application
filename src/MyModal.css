@@ -1,0 +1,45 @@
+.modal_cont{
+    color: var(--white);
+    font-family: 'Roboto', sans-serif;
+}
+
+.modal_cont h2{
+    margin: 0;
+    padding: 1rem; 
+    font-size: 1.2rem;
+    color: var(--grey);
+    text-transform: uppercase;
+}
+
+.modal_cont p {
+    margin: 0;
+    padding: 0 2rem 2rem 2rem;
+    font-size: .9rem;
+}
+
+.btn_cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.dbn{
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-top: 1px solid gray;
+}
+
+.dismissBtn {
+    border-radius: 0 0 0 .35rem;
+    color: var(--grey);
+    border-right: 1px solid gray;
+}
+
+.dltBtn{
+    background-color: var(--btn);
+    border-radius: 0 0 .35rem 0;
+    border-left: 1px solid gray;
+}
